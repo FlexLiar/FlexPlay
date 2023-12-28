@@ -1,0 +1,126 @@
+/*My Variables*/
+:root{
+    --red:hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange:hsl(34, 97%, 64%);
+    --blue:hsl(212, 86%, 64%);
+    --Very-Dark-Blue:hsl(234, 12%, 34%);
+    --Grayish-Blue:hsl(229, 6%, 66%);
+    --Very-Light-Gray:hsl(0, 0%, 98%);
+}
+
+body{
+    padding: 0;
+    margin-left: 7pc;
+    margin-right: 7pc;
+    box-sizing: border-box;
+    margin-top: 5pc;
+    background-color: var(--Very-Light-Gray);
+    font-size: 15px;
+}
+
+.para{
+    text-align: center;
+}
+
+.para p:first-child{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.para p:nth-child(2){
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+}
+
+.para p:last-child{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 0;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.6;
+  }
+
+  .container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+.container-one{
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-top: 4px solid transparent;
+    -webkit-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+    -moz-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+    box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+}
+
+.container-one .card{
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.container-one>p{
+    text-align: center;
+    padding-top: .5pc;
+}
+
+.content {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.content .card-holder .card {
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-top: 4px solid transparent;
+    -webkit-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+    -moz-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+    box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+}
+
+.content .card-holder .card h3 {
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-size: 22px;
+  }
+  .content .card-holder .card p {
+    line-height: 1.7;
+    color: hsl(229, 6%, 66%);
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .content .card-holder .card img {
+    display: block;
+    margin-left: auto;
+  }
+  .content .card-holder .super {
+    border-top-color: hsl(180, 62%, 55%);
+  }
+  .content .card-holder .team {
+    border-top-color: hsl(0, 78%, 62%);
+  }
+  .content .card-holder .karma {
+    border-top-color: hsl(34, 97%, 64%);
+  }
+  .content .card-holder .calculator {
+    border-top-color: hsl(212, 86%, 64%);
+  }
+  
